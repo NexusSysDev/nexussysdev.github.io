@@ -1,0 +1,49 @@
+body {
+    color: black;
+    user-select: none;
+    background-image: linear-gradient(to top, purple, gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    align-items: center;
+
+}
+
+main {
+    /* Styling, size and colors */
+    background-image: linear-gradient(to top, gray, white);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto 15px;
+
+    /* Text */
+    text-wrap: wrap;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal; 
+    font-size: 24px;
+    text-align: center;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+/* Hover state */
+a:hover {
+    color: gray; /* Color change on hover */
+}
+
+/* Active state */
+a:active {
+    color: white; /* Color change when the link is being clicked */
+}
