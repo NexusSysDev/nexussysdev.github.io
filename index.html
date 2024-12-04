@@ -15,6 +15,15 @@
         <a href="tos.html">Terms of Service</a>
     </main>
 
+<script>
+        new QWebChannel(qt.webChannelTransport, function(channel) {
+    var pythonBridge = channel.objects.pythonBridge;
+    pythonBridge.execute_command("Hello from JS!");
+});
+</script>
+
+
+
 
 </body>
 </html>
